@@ -1,14 +1,16 @@
 
 
 
-## Testing Pages
+## Testing GitHub Pages
 
-Just a few bits to test this 
+A few basic things to test what GitHub Pages can do. It's free and it doesn't have ads except for a little link to GitHub at the bottom. Git repos are complicated but this pages thing doesn't seem too bad. 
 
-[Link](https://www.wurmpedia.com/index.php/Main_Page) 
+[Wurmpedia](https://www.wurmpedia.com/index.php/Main_Page) 
 
-_Will Dray do this?_
+_Hey Dray! What do you think?_
+
+![Image](https://www.wurmpedia.com/images/8/88/WurmLogoLarge.png) ![Image](https://www.wurmpedia.com/images/8/88/WurmLogoLarge.png)
 
 ![Image](https://www.wurmpedia.com/images/8/88/WurmLogoLarge.png) ![Image](https://www.wurmpedia.com/images/8/88/WurmLogoLarge.png)
 
-![Image](https://www.wurmpedia.com/images/8/88/WurmLogoLarge.png) ![Image](https://www.wurmpedia.com/images/8/88/WurmLogoLarge.png)
+It can get a little more complicated if you like. 
