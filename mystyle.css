@@ -1,0 +1,14 @@
+body {font-family: "Courier New", Courier, monospace;}  
+.maintitle {font-family: "Courier New", Courier, monospace; font-size: 36px; line-height: 150%;}   
+.subtitle {font-family: "Courier New", Courier, monospace; font-size: 20px; line-height: 200%;}
+.name {font-family: "Courier New", Courier, monospace; font-size: 20px; line-height: 150%; font-weight: ;} 
+p {font-family: "Courier New", Courier, monospace;}
+table.mess {width: 80%; border: 1px solid black; margin: 4px 0px 10px 0px;}
+td.mess {padding: 5px 10px 5px 10px;}
+td.book {width: 20%; margin: 0px 5px 0px 5px; padding: 10px 10px 0px 10px;}
+button.return {display: none;}
+img { display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	width: 90%;}
+img.img-rounded{border-radius: 6px;}

@@ -1,0 +1,74 @@
+
+<html>
+<head>
+  <title>My Library </title>
+  <!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body> 	
+    <table width="95%" align="center"><tr><td colspan="5" align="center">
+		<div class="maintitle">My Library</div>
+		<div class="subtitle">Runs on the Ethereum Rinkeby Test Network</div>
+		<table class="mess"><tr><td class="mess"><div id="message"></div></td></tr></table>
+	</td></tr><tr><td class="book" valign="top">
+        <img class="img-rounded img-center" src="images\20000leagues.jpg">
+		<br/>
+		<div class="name" id="name0">Twenty Thousand Leagues Under the Sea</div>
+		<strong>Author</strong>: <span class="author">Jules Verne</span><br/>
+		<strong>Published</strong>: <span class="published">1870</span><br/>
+		<strong>Genre</strong>: <span class="genre">Sci-Fi</span><br/><br/>
+		<button class="checkout" type="button" id="0" onclick="checkOut(id)">Check Out</button>
+		<button class="return" type="button" id="ret0" onclick="checkIn(id)">Return</button><br/>
+		<br/>
+	</td><td class="book" valign="top">
+		<img class="img-rounded img-center" src="images\romeojuliet.jpg">
+		<br/>
+		<div class="name"  id="name1">Romeo and Juliet</div>
+		<strong>Author</strong>: <span class="author">William Shakespeare</span><br/>
+		<strong>Published</strong>: <span class="published">1597</span><br/>
+		<strong>Genre</strong>: <span class="genre">Tragedy</span><br/><br/>
+		<button class="checkout" type="button" id="1" onclick="checkOut(id)">Check Out</button>
+		<button class="return" type="button" id="ret1" onclick="checkIn(id)">Return</button><br/>
+		<br/>
+	</td><td class="book" valign="top">
+		<img class="img-rounded img-center" src="images\alice.jpg">
+		<br/>
+		<div class="name"  id="name2">Alice In Wonderland</div>
+		<strong>Author</strong>: <span class="author">Lewis Carroll</span><br/>
+		<strong>Published</strong>: <span class="published">1865</span><br/>
+		<strong>Genre</strong>: <span class="genre">Fantasy</span><br/><br/>
+		<button class="checkout" type="button" id="2" onclick="checkOut(id)">Check Out</button>
+		<button class="return" type="button" id="ret2" onclick="checkIn(id)">Return</button><br/>
+		<br/>
+	</td><td class="book" valign="top">
+		<img class="img-rounded img-center" src="images\odyssey.jpg">
+		<br/>
+		<div class="name"  id="name3">The Odyssey</div>
+		<strong>Author</strong>: <span class="author">Homer</span><br/>
+		<strong>Published</strong>: <span class="published">8th Century BC</span><br/>
+		<strong>Genre</strong>: <span class="genre">Epic Poem</span><br/><br/>
+		<button class="checkout" type="button" id="3" onclick="checkOut(id)">Check Out</button>
+		<button class="return" type="button" id="ret3" onclick="checkIn(id)">Return</button><br/>
+		<br/>
+	</td><td class="book" valign="top">
+		<img class="img-rounded img-center" src="images\artwar.jpg">
+		<br/>
+		<div class="name"  id="name4">The Art of War</div>
+		<strong>Author</strong>: <span class="author">Sun Tzu</span><br/>
+		<strong>Published</strong>: <span class="published">between 800-450 BC</span><br/>
+		<strong>Genre</strong>: <span class="genre">Military Strategy</span><br/><br/>
+		<button class="checkout" type="button" id="4" onclick="checkOut(id)">Check Out</button>
+		<button class="return" type="button" id="ret4" onclick="checkIn(id)">Return</button><br/>
+		<br/>
+	</td></tr></table>
+	
+	
+	<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>	
+    <script src="additional.js"></script>  <!-- holds our javascript functions -->	
+    <script src="web3.min.js"></script>  <!-- allows us to interact with Ethereum contracts -->
+    
+	<!-- Extras - probably not needed now
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+</body>
+</html>
